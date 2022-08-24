@@ -10,7 +10,7 @@ public class Dos implements Runnable {
 
 
 
-    private final String USER_AGENT =  ["Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; AS; rv:11.0) like Gecko",
+    private final String USER_AGENT =  "Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; AS; rv:11.0) like Gecko",
     "Mozilla/5.0 (compatible, MSCLR 3IE 11, Windows NT 6.3; Trident/7.0;  rv:11.0) like Gecko",
     "Mozilla/5.0 (compatible; MSIE 10.6; Windows NT 6.1; Trident/5.0; InfoPath.2; SLCC1; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; .NET CLR 2.0.50727) 3gpp-gba UNTRUSTED/1.0",
     "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 7.0; InfoPath.3; .NET .1.40767; Trident/6.0; en-IN)",
@@ -4549,11 +4549,7 @@ public class Dos implements Runnable {
     "WebZIP/3.5 (http://www.spidersoft.com)",
     "Wget/1.9.1",
     "Wget/1.9 cvs-stable (Red Hat modified)",
-    "wii libnup/1.0"]
-
-
-
-
+    "wii libnup/1.0"
 
     private static int amount = 0;
     private static String url = "";
